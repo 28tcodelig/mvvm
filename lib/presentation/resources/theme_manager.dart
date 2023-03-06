@@ -57,7 +57,7 @@ ThemeData getAppilicationTheme() {
         fontSize: FontSize.s16,
       ),
       headlineMedium: getMediumStyle(
-        color: ColorManager.lightGrey,
+        color: ColorManager.primary,
         fontSize: FontSize.s14,
       ),
       titleMedium: getRegularStyle(
@@ -70,7 +70,7 @@ ThemeData getAppilicationTheme() {
     ),
 //input decoration theme (text form fied)
     inputDecorationTheme: InputDecorationTheme(
-      contentPadding: EdgeInsets.all(AppPadding.p8),
+      contentPadding: const EdgeInsets.all(AppPadding.p8),
       hintStyle: getRegularStyle(
         color: ColorManager.grey1,
       ),
